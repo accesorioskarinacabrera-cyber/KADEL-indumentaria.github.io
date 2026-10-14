@@ -1,0 +1,174 @@
+div{
+    font-family: cursive;
+    background-color: white;
+}
+div header{
+    background-color: white;
+    text-align: center;
+    margin-bottom: 60px;
+}
+nav{
+    background-color: white;
+    margin-bottom: 60px;
+}
+#horizontal2{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#horizontal2 li{
+    display: inline;
+}
+#horizontal2 li a{
+color: purple;
+text-decoration: none;
+display: block;
+float: left;
+padding: 32px;
+border: 1px purple solid;
+background-color: pink;
+}
+#horizontal2 li a:hover{
+    color: white;
+    background-color: blue;
+    border: 1px solid white;
+}
+#horizontal{
+    margin: 0px;
+    padding: 0px;
+}
+#horizontal li{
+    display: inline;
+}
+#horizontal li a{
+    display: block;
+    float: left;
+    padding: 6px;
+}
+main{
+    clear: both;
+    margin-bottom: 100px;
+    height: 80px;
+    width: 60%;
+    text-align: center;
+}
+aside{
+    margin-top: 60px;
+    margin-top: 100px;
+    height: 80px;
+    width: 34%;
+    float: right;
+}
+footer{
+    clear: both;
+    background-color: pink;
+    margin-top: 300px;
+    font-size: x-small;
+    text-align: center;
+}
+#vertical{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    background-color: pink;
+}
+#vertical a{
+    display: block;
+    text-decoration: none;
+    background-color: pink;
+}
+
+#vertical li{
+    display: block;
+    width: 130px;
+    background-color: pink;
+}
+#vertical li a{
+    display: block;
+    color: purple;
+    text-decoration: none;
+    border: 1px solid purple;
+    padding: 32px;
+    background-color: pink;
+}
+#vertical li a:hover{
+    color: white;
+    background-color: blue;
+    border: 1px solid white;
+}
+.thumbnails {
+    display: grid;
+    grid-template-columns: repeat(4, 150px); /*4 columnas*/
+    gap: 20px; /* separacion entre imagenes*/
+    justify-content: right;
+    padding: 20px;
+}
+
+.thumbnails img {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    border: 2px solid #111;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    object-fit: cover;
+}
+.thumbnails img:hover {
+    transform: scale(1.1);
+}
+.resultado{
+    display: grid;
+    grid-template-columns: repeat(4, 150px); /*4 columnas*/
+    gap: 20px; /* separacion entre imagenes*/
+    justify-content: left;
+    padding: 20px;
+}
+.resultado img {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    border: 2px solid #111;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    object-fit: cover;
+}
+.resultado img:hover {
+    transform: scale(1.1);
+}
+header {
+    background-color: white
+}
+.logo{
+    width: 130px;
+    text-align: center;
+    color: black;
+}
+.logo h1{
+    font-family: cursive;
+    font-size: 28px;
+    letter-spacing: 3px;
+}
+.logo small{
+    font-size: 8px;
+    letter-spacing: 2px;
+}
+
+.diseños{
+    width: 250%;
+    height: 300px;
+    margin: 0px;
+    padding: 10px;
+    margin-top: -60px;
+    float: right;
+    display: inline;
+}
+.menu{
+    display: block;
+}
+.titulo{
+   width: 350px;
+   height: auto;
+   margin: 0 auto;
+   display: block;
+}
